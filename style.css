@@ -76,15 +76,14 @@ img {
 /* TABLET 1024px */
 /* /TABLET 1024px */
 /* SMARTPHONE */
-@media screen and (max-width: 520px) {
-
-  .row {
-    width: 90%;
-  }
-  img{
-    height: 150px;
-  }
-
+@media screen and (max-width: 420px) {
+.row {
+  width: 90%;
+  font-size: 20px
+}
+img{
+  max-height: 150px;
+  margin-top: 80px;
 }
 #lezioni .row>.left,
 #lezioni .row>.right {
@@ -99,6 +98,12 @@ img {
 #steps .row>.right {
   float: none;
   width: 100%;
+}
+h1{
+  font-size: 60px;
+}
+h3{
+  font-size: 40px;
 }
 /* /SMARTPHONE */
 /* /RESPONSIVE */
