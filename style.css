@@ -77,21 +77,37 @@ img {
 /* /TABLET 1024px */
 /* SMARTPHONE */
 @media screen and (max-width: 420px) {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .row {
   width: 90%;
-  font-size: 20px
+  font-size: 20px;
+  margin-top: 0;
 }
 img{
   max-height: 150px;
   margin-top: 80px;
+}
+#lezioni{
+  background: orange;
+}
+#steps{
+  background: green;
+}
+#why{
+  background: pink;
 }
 #lezioni .row>.left,
 #lezioni .row>.right {
   width: 100%;
   float: none;
 }
-.container.grey{
-  background-color: transparent;
+.container{
+  background-color: red;
+  padding-bottom: 50px;
 }
 #steps .row>.left,
 #steps .row>.central,
@@ -101,9 +117,16 @@ img{
 }
 h1{
   font-size: 60px;
+  padding-top: 30px;
 }
 h3{
   font-size: 40px;
+}
+hr{
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid black;
 }
 /* /SMARTPHONE */
 /* /RESPONSIVE */
