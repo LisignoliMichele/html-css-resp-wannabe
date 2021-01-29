@@ -71,3 +71,34 @@ img {
 .clear {
   clear: both;
 }
+
+/* RESPONIVE */
+/* TABLET 1024px */
+/* /TABLET 1024px */
+/* SMARTPHONE */
+@media screen and (max-width: 520px) {
+
+  .row {
+    width: 90%;
+  }
+  img{
+    height: 150px;
+  }
+
+}
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 100%;
+  float: none;
+}
+.container.grey{
+  background-color: transparent;
+}
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+}
+/* /SMARTPHONE */
+/* /RESPONSIVE */
